@@ -1,9 +1,5 @@
 console.log('master');
 
-<<<<<<< HEAD
-function deploy () {
-    console.log('deployBranch');
-=======
 function test () {
     console.log('testBranch');
 }
@@ -12,6 +8,13 @@ function dev () {
 }
 
 function checkTask () {
-    console.log ('testTask');
->>>>>>> test
+    console.log ('testTask');   
+}
+
+function testComplete () {
+ console.log ('testComplete');
+}
+
+function taskDone () {
+    console.log ('taskDone');
 }
